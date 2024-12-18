@@ -1,0 +1,71 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "To validate the login by using valid username and password",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-facebook-application;to-validate-the-login-by-using-valid-username-and-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3012964900,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User have to enter the facebook application through chrome browser",
+            "match": {
+              "location": "StepDefinition.user_have_to_enter_the_facebook_application_through_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 923265900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User have to enter valid username and valid password",
+            "match": {
+              "location": "StepDefinition.user_have_to_enter_valid_username_and_valid_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 121948200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User have to click login button",
+            "match": {
+              "location": "StepDefinition.user_have_to_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 25673898100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User reach the valid or invalid credential page",
+            "match": {
+              "location": "StepDefinition.user_reach_the_valid_or_invalid_credential_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To validate the login functionality of facebook application",
+    "description": "",
+    "id": "to-validate-the-login-functionality-of-facebook-application",
+    "keyword": "Feature",
+    "uri": "D:/eclipse/Cucumber/src/test/resources/FeatureFile/login.feature",
+    "tags": []
+  }
+]
