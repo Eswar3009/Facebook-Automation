@@ -3,6 +3,7 @@ The code outlines a structured approach to automating the testing of Facebook's 
 Set Up the Test Runner:
 
 The TestRunner class is configured with Cucumber options to specify the feature file's location, the glue code (step definitions), and the paths for generating various reports (HTML, JUnit, JSON).
+
 Define Page Objects:
 
 The LoginPojo class utilizes the Page Object Model (POM) to represent the Facebook login page elements.
